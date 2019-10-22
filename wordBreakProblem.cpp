@@ -1,7 +1,7 @@
 /*
     @rajujnvgupta
 	22/10/2019
-    top down approach
+    top down approaches
 */
 #include <bits/stdc++.h>
 using namespace std;
