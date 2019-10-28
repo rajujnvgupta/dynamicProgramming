@@ -1,5 +1,5 @@
 /*
-    @rajujnvgupta  
+    author @rajujnvgupta  
     28/oct/2019
 */
 #include <bits/stdc++.h>
