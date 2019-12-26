@@ -19,7 +19,7 @@ int solve(vector<int>arr, int j, int prev){
     }
 
     ///if already calculated then return 
-    if(dp[j] != -1){
+    if(dp[j] != 0){
 
         return dp[j];
     }
@@ -44,7 +44,7 @@ int main() {
 
             cin>>arr[i];
         }
-        memset(dp, -1, sizeof dp);
+        memset(dp, 0, sizeof dp);
         
         cout<<solve(arr, 0, INT_MIN)<<endl;
     }
